@@ -91,7 +91,7 @@ function createMarkup(arr) {
         .join('');
 }
 
-new SimpleLightbox(".gallery a", {
+const galleryLightbox = new SimpleLightbox(".gallery a", {
     captionsData: "alt",
     captionDelay: 250,
 });
